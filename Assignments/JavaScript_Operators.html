@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Add, subtract, multiply, and divide two numbers using arithmetic operators. 
+         Use comparison operators to check if two numbers are equal and if onenumber is greater than the other. 
+         Use logical operators to check if both conditions (e.g., a > 10 and b < 5)are true.  -->
+    <script>
+       
+        let a = 15;
+        let b = 5;
+
+        // Arithmetic operations
+        let addition = a + b;
+        let subtraction = a - b;
+        let multiplication = a * b;
+        let division = a / b;
+
+        document.write("Addition of a and b: " + addition + "<br>");
+        document.write("Subtraction of a and b: " + subtraction + "<br>");
+        document.write("Multiplication of a and b: " + multiplication + "<br>");
+        document.write("Division of a and b: " + division + "<br>");
+
+        // Comparison operations
+        let equal = a === b;  
+        let isGreater = a > b; 
+
+        document.write("Are a and b equal " + equal + "<br>");
+        document.write("Is a greater than b " + isGreater + "<br>");
+
+        // Logical operations
+        let bothConditionsTrue = a > 10 && b < 5;
+
+        document.write("Are both conditions true " + bothConditionsTrue);
+
+    </script>
+</body>
+</html>
